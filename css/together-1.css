@@ -6,29 +6,47 @@ h1{
 }
 
 header{
-	background-color: #DFE1E1;
 	text-align: center;
 	padding:15px;
 }
+
+header,footer{
+	background: #DFE1E1;
+	background:-moz-linear-gradient(#D9FDFD, #DFE1E1);
+	background:-webkit-linear-gradient(#D9FDFD, #DFE1E1);
+	background:-o-linear-gradient(#D9FDFD, #DFE1E1);
+	background:linear-gradient(#D9FDFD, #DFE1E1);
+
+}
+
+
 
 body{
 	margin:4%;
 	
 }
 
-section{
-	width:28%;
+.half{
+	width:46%;
 	display: inline-block;
 	margin:2%;
 	float:left;
 }
-
+ .whole{
+ 	clear:both;
+ }
 
 
 nav{
 	font-variant: small-caps;
 	font-family: Arial, "Times New Roman", serif;
 	font-size:150%;
+}
+
+nav a{
+	width:21%;
+	display:inline-block;
+	background-color: #ffffff
 }
 
 h2{
@@ -44,7 +62,7 @@ summary{
 }
 
 footer{
-	background-color: #DFE1E1;
+	
 	clear:both;
 
 }
